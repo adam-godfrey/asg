@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Tariff;
+use App\Models\Brookshill\Tariff;
 use App\Rules\Telephone;
 
 class BookingController extends Controller
@@ -16,7 +16,7 @@ class BookingController extends Controller
     		'tariff' => $tariff
     	];
 
-    	return view('glamping.booking.index')->with($data);
+    	return view('brookshillfarm.glamping.booking.index')->with($data);
     }
 
     public function store(Request $request)

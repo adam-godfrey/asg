@@ -45,7 +45,7 @@
             <div class="col-xl-9 mx-auto">
                 <div class="cta-inner text-center rounded">
                     <h2 class="section-heading mb-4">
-                        <span class="section-heading-upper">Accomodation For</span>
+                        <span class="section-heading-upper">Schooling For</span>
                         <span class="section-heading-lower">Your Horses</span>
                     </h2>
                     <p class="mb-0">For those with a tight schooling regime we have our own all-weather school that can be hired at any time during your stay.</p>
