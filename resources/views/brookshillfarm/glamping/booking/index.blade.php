@@ -12,9 +12,8 @@
                             <span class="section-heading-upper">Strong Coffee, Strong Roots</span>
                             <span class="section-heading-lower">Tariff &amp; Booking</span>
                         </h2>
-		              	<p>Listed below are the most popular booking options that we offer here at Benton View, however if you’d like to stay for a duration that isn’t listed, please do Contact Us with your requirements and we’ll be happy to help.</p>
-		              	<p>While the Shepherd’s Hut sleeps two people, you’re welcome to bring a tent for the kids and have a holiday for you all to remember!</p>
-                    
+		              	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut nibh leo. Nunc vitae ex ut turpis aliquam lacinia ac dictum dui. Sed blandit magna arcu, non ullamcorper lectus egestas quis. Curabitur vel metus lacinia mi lobortis venenatis. Nullam ornare dui in quam malesuada, sed dapibus neque tristique. Donec id ligula maximus, gravida augue vel, gravida tellus.</p>
+		              	<p class="mb-0">Suspendisse efficitur, velit et tincidunt tincidunt, lorem tellus accumsan nibh, ornare dignissim orci sem at ex. Phasellus eget ex a magna scelerisque convallis. Cras id nunc id tortor iaculis ultrices. Quisque consectetur ullamcorper massa a luctus.</p>
             		</div>
           		</div>
         	</div>
