@@ -1,0 +1,30 @@
+.news-heading {
+  @media (min-width: 992px) {
+    .news-heading-img {
+      position: relative;
+      z-index: 0;
+    }
+    .news-heading-content {
+      margin-top: -5rem;
+      position: relative;
+      z-index: 1;
+      .news-heading-date {
+        &:hover {
+          text-decoration: none;
+        }
+        position: absolute;
+        top: -45px;
+        right: 45px;
+        display: block;
+        color: #fff;
+        background: #ff3334;
+        padding: 8px 15px;
+        border-radius: 5px;
+        p {
+          @include heading-font;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

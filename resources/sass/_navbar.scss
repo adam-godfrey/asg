@@ -1,0 +1,57 @@
+#mainNav {
+  background-color: fade-out($black, 0.1);
+  @include heading-font;
+  .navbar-brand {
+    color: $primary;
+  }
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        color: fade-out($white, 0.3);
+
+        font-weight: 800;
+      }
+      &.active {
+        .nav-link {
+          color: $primary;
+        }
+      }
+    }
+  }
+
+  .dropdown-submenu {
+    position: relative;
+  }
+
+  .dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 6px;
+    top: .8em;
+  }
+
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-left: .1rem;
+    margin-right: .1rem;
+  }
+  
+  @media (min-width: 992px) {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          font-size: 0.9rem;
+          &:hover {
+            color: fade-out($white, 0.6);
+          }
+        }
+        &.active {
+          .nav-link:hover {
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+}
