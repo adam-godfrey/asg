@@ -4,6 +4,8 @@
 /storage/*.key
 /vendor
 .env
+.env.brookshillfarm.co.uk
+.env.asg-web.co.uk
 .env.backup
 .phpunit.result.cache
 Homestead.json

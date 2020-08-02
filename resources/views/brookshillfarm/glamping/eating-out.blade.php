@@ -9,7 +9,7 @@
           		<div class="col-xl-9 col-lg-10 mx-auto">
             		<div class="bg-faded rounded p-5">
 		              	<h2 class="section-heading mb-4">
-			                <span class="section-heading-upper">Strong Coffee, Strong Roots</span>
+			                <span class="section-heading-upper">Our favourite places for</span>
 			                <span class="section-heading-lower">Eating Out</span>
 		              	</h2>
 		              	<p class="mb-3">We have a selection of pretty top restaurants and take aways within walking distance or a short drive. It would be our pleasure to book these for you, we can even provide a taxi or meal collection service from fish and chips to an Indian Takeaway right to your door.</p>

@@ -1,5 +1,34 @@
 @extends('brookshillfarm.layouts.default')
 
+@push('scripts')
+<script src="{{ asset('js/dateTimePicker.min.js') }}"></script>
+<script src="{{ asset('js/moment.js') }}"></script>
+<script src="{{ asset('js/jquery.daterangepicker.js') }}"></script>
+<script>
+$(function() {
+    $('#show-next-month').calendar(
+      {
+        num_next_month: 2,
+        num_prev_month: 0,
+        unavailable: ['*-*-9', '*-*-10']
+      });
+
+      $('#daterange').dateRangePicker({
+        format: 'dddd MMM Do, YYYY',
+        startDate: new Date(),
+        autoClose: true
+        // beforeShowDay: function(t)
+        // {
+        //  var valid = !(t.getDay() == 0 || t.getDay() == 6);  //disable saturday and sunday
+        //  var _class = '';
+        //  var _tooltip = valid ? '' : 'sold out';
+        //  return [valid,_class,_tooltip];
+        // }
+      });
+    });
+</script>
+@endpush
+
 @section('content')
 <section class="page-section about-heading">
     <div class="container">
