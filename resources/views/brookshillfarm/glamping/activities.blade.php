@@ -24,7 +24,7 @@
 <section class="page-section clearfix">
     <div class="container">
         <div class="intro">
-            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="https://via.placeholder.com/685x514.png?text=Image Coming Soon" alt="">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/walking.jpg') }}" alt="Three people walking on green cliff">
             <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                 <h2 class="section-heading mb-4">
                     <span class="section-heading-upper">Fresh Coffee</span>
@@ -43,7 +43,7 @@
 <section class="page-section clearfix">
     <div class="container">
         <div class="intro">
-            <img class="intro-img-r img-fluid mb-3 mb-lg-0 rounded" src="https://via.placeholder.com/685x514.png?text=Image Coming Soon" alt="">
+            <img class="intro-img-r img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/fishing.jpg') }}" alt="Person holding fishing rod">
             <div class="intro-text-r left-0 text-center bg-faded p-5 rounded">
                 <h2 class="section-heading mb-4">
                     <span class="section-heading-upper">Fresh Coffee</span>
@@ -58,16 +58,16 @@
 <section class="page-section clearfix">
     <div class="container">
         <div class="intro">
-            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="https://via.placeholder.com/685x514.png?text=Image Coming Soon" alt="">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/wildlife.jpg') }}" alt="Brown deer standing near tree">
             <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                 <h2 class="section-heading mb-4">
-                    <span class="section-heading-upper">Fresh Coffee</span>
-                    <span class="section-heading-lower">Cycling</span>
+                    <span class="section-heading-upper">We love a</span>
+                    <span class="section-heading-lower">Farm BioBlitz</span>
                 </h2>
-                <p class="mb-3">The surrounding areas have always been a massive hit with cyclists.</p>
+                <p class="mb-3">... and can provide recording sheets for your stay to record all the wildlife you see during your visit. You can even impress your friends with footage from your very own wildlife camera positioned outside your hut. We will download your data and email you the exciting bits to take back to show your friends. With deer, foxes, badgers, stoats and even our resident barn owl, it's more action packed than EastEnders.</p>
                 <div class="intro-button mx-auto">
-                    <a class="btn btn-primary btn-xl" href="http://www.gps-routes.co.uk/routes/home.nsf/RoutesLinksCycle/blackdown-hills---hemyock-uffculme-culmstock-circuit-cycle-route
-">Cycle Routes!</a>
+                    <a class="btn btn-primary btn-xl" href="https://welovemiddevon.wordpress.com/2018/09/13/culmstock-beacon/
+">Find Out More!</a>
                 </div>
             </div>
         </div>
@@ -77,7 +77,7 @@
 <section class="page-section clearfix">
     <div class="container">
         <div class="intro">
-            <img class="intro-img-r img-fluid mb-3 mb-lg-0 rounded" src="https://via.placeholder.com/685x514.png?text=Image Coming Soon" alt="">
+            <img class="intro-img-r img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/clay-pigeon-shooting.jpg') }}" alt="Shotguns and ear defenders">
             <div class="intro-text-r left-0 text-center bg-faded p-5 rounded">
                 <h2 class="section-heading mb-4">
                     <span class="section-heading-upper">Shooting</span>
@@ -92,7 +92,7 @@
 <section class="page-section clearfix">
     <div class="container">
         <div class="intro">
-            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="https://via.placeholder.com/685x514.png?text=Image Coming Soon" alt="">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/lessons.jpg') }}" alt="Woman in black jacket riding brown horse">
             <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                 <h2 class="section-heading mb-4">
                     <span class="section-heading-upper">Fresh Coffee</span>
@@ -126,15 +126,16 @@
 <section class="page-section clearfix">
     <div class="container">
         <div class="intro">
-            <img class="intro-img-r img-fluid mb-3 mb-lg-0 rounded" src="https://via.placeholder.com/685x514.png?text=Image Coming Soon" alt="">
-            <div class="intro-text-r left-0 text-center bg-faded p-5 rounded">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/cycling.jpg') }}" alt="Cycle route sign on wooden post">
+            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                 <h2 class="section-heading mb-4">
-                    <span class="section-heading-upper">We love a</span>
-                    <span class="section-heading-lower">Farm BioBlitz</span>
+                    <span class="section-heading-upper">Fresh Coffee</span>
+                    <span class="section-heading-lower">Cycling</span>
                 </h2>
-                <p class="mb-3">... and can provide recording sheets for your stay to record all the wildlife you see during your visit. You can even impress your friends with footage from your very own wildlife camera positioned outside your hut. We will download your data and email you the exciting bits to take back to show your friends. With deer, foxes, badgers, stoats and even our resident barn owl, it's more action packed than EastEnders.</p>
-                <div class="intro-button-r mx-auto">
-                    <a class="btn btn-primary btn-xl" href="#">Find Out More!</a>
+                <p class="mb-3">The surrounding areas have always been a massive hit with cyclists.</p>
+                <div class="intro-button mx-auto">
+                    <a class="btn btn-primary btn-xl" href="http://www.gps-routes.co.uk/routes/home.nsf/RoutesLinksCycle/blackdown-hills---hemyock-uffculme-culmstock-circuit-cycle-route
+">Cycle Routes!</a>
                 </div>
             </div>
         </div>
