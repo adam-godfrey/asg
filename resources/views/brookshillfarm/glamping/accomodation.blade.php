@@ -23,7 +23,7 @@
           		<div class="col-xl-9 col-lg-10 mx-auto">
             		<div class="bg-faded rounded p-5">
 		              	<h2 class="section-heading mb-4">
-			                <span class="section-heading-upper">Strong Coffee, Strong Roots</span>
+			                <span class="section-heading-upper">A little bit of luxury</span>
 			                <span class="section-heading-lower">Accomodation</span>
 		              	</h2>
 		              	<p class="mb-3">Our beautiful bespoke, shepherds hut MooBells (sorry named by our children) will be welcoming guests from April 2020. Our hut is brand new and offers guests a little bit of luxury whilst importantly still maintaining that all important, at one with nature camping feel which is so very important to us.</p>
@@ -132,13 +132,13 @@
         <div class="intro">
             <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="https://via.placeholder.com/800x533.png?text=Image Coming Soon" alt="">
             <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-<!--                 <h2 class="section-heading mb-4">
-                    <span class="section-heading-upper">Fresh Coffee</span>
-                    <span class="section-heading-lower">Horsey Holidays</span>
-                </h2> -->
+                <h2 class="section-heading mb-4">
+                    <span class="section-heading-upper">Enjoy Fantastic Views</span>
+                    <span class="section-heading-lower">Culmstock Beacon</span>
+                </h2>
                 <p class="mb-3">Outside your shepherd hut is where your glamping experience really takes shape. Your accommodation comes with far reaching views to the famous Culmstock Beacon (we recommend you take a walk up here) and is situated just a stone's throw from the river Culm footpath. With just a fifteen-minute stroll along the meandering river Culm to the local village of Culmstock, with its great pub and Village shop what could be better.</p>
                 <div class="intro-button mx-auto">
-                    <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
+                    <a class="btn btn-primary btn-xl" href="{{ route('brookshillfarm.glamping.booking.index') }}">How To Book</a>
                 </div>
             </div>
         </div>
@@ -150,13 +150,13 @@
         <div class="intro">
             <img class="intro-img-r img-fluid mb-3 mb-lg-0 rounded" src="https://via.placeholder.com/800x533.png?text=Image Coming Soon" alt="">
             <div class="intro-text-r left-0 text-center bg-faded p-5 rounded">
-                <!-- <h2 class="section-heading mb-4">
-                    <span class="section-heading-upper">Fresh Coffee</span>
-                    <span class="section-heading-lower">Worth Drinking</span>
-                </h2> -->
+                <h2 class="section-heading mb-4">
+                    <span class="section-heading-upper">Outdoor Cooking On A</span>
+                    <span class="section-heading-lower">Rustic Campfire</span>
+                </h2>
                 <p class="mb-3">We love absolutely nothing more than outdoor cooking so in addition to your very well equipped kitchen we have provided you with a quint essentially rustic campfire set up so you can cook bangers (Brookshill homemade are best) and beans on an open fire, under the stars to your hearts content. We would recommend cooking your breakfast like this too as in addition to breath taking sunsets you could be in for some truly magnificent sunrises.</p>
                 <div class="intro-button-r mx-auto">
-                    <a class="btn btn-primary btn-xl" href="#">Find Out More!</a>
+                    <a class="btn btn-primary btn-xl" href="{{ route('brookshillfarm.glamping.booking.index') }}">How To Book</a>
                 </div>
             </div>
         </div>
