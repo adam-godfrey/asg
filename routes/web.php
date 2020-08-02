@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Auth::routes();
+
 Route::group(['domain' => 'asg-web.local'], function() {
     Route::get('/', function () {
         dd('PRO');
@@ -78,13 +80,3 @@ Route::group(['domain' => 'brookshillfarm.local'], function() {
         Route::get('test', 'IndexController@index')->name('brookshillfarm.admin.dashboard');
     });
 });
-
-Route::get('/', function () {
-    return view('brookshillfarm.welcome');
-});
-
-
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
