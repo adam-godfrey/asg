@@ -1,5 +1,19 @@
 @extends('brookshillfarm.layouts.default')
 
+@push('scripts')
+<script src="{{ asset('js/masonry.pkgd.min.js') }}"></script>
+<script>
+    $(function() {
+        //masonry js
+        $('.grid').masonry({
+            itemSelector: '.grid-item',
+            columnWidth: '.grid-sizer',
+            percentPosition: true
+        });
+    });
+</script>
+@endpush()
+
 @section('content')
 <section class="page-section about-heading">
     <div class="container">
@@ -51,8 +65,8 @@
                         <div class="project_img">
                             <img src="https://via.placeholder.com/960x350.png?text=Image Coming Soon" alt="">
                             <div class="project_gallery_hover_text">
-                                <p>Home Apartment</p>
-                                <h3>Detached House For Sale </h3>
+                                <p>Sherpherd's Hut</p>
+                                <h3>Lorem ipsum dolor sit amet</h3>
                                 <ul>
                                     <li><a href=""><span class="flaticon-bath"></span></a> 04</li>
                                     <li><a href=""><span class="flaticon-bed"></span></a> 03</li>
@@ -66,8 +80,8 @@
                         <div class="project_img">
                             <img src="https://via.placeholder.com/960x700.png?text=Image Coming Soon" alt="">
                             <div class="project_gallery_hover_text">
-                                <p>Home Apartment</p>
-                                <h3>Detached House For Sale </h3>
+                                <p>Sherpherd's Hut</p>
+                                <h3>Lorem ipsum dolor sit amet</h3>
                                 <ul>
                                     <li><a href=""><span class="flaticon-bath"></span></a> 04</li>
                                     <li><a href=""><span class="flaticon-bed"></span></a> 03</li>
@@ -81,8 +95,8 @@
                         <div class="project_img">
                             <img src="https://via.placeholder.com/479x350.png?text=Image Coming Soon" alt="">
                             <div class="project_gallery_hover_text">
-                                <p>Home Apartment</p>
-                                <h3>Detached House For Sale </h3>
+                                <p>Sherpherd's Hut</p>
+                                <h3>Lorem ipsum dolor sit amet</h3>
                                 <ul>
                                     <li><a href=""><span class="flaticon-bath"></span></a> 04</li>
                                     <li><a href=""><span class="flaticon-bed"></span></a> 03</li>
@@ -96,8 +110,8 @@
                         <div class="project_img">
                             <img src="https://via.placeholder.com/478x349.png?text=Image Coming Soon" alt="">
                             <div class="project_gallery_hover_text">
-                                <p>Home Apartment</p>
-                                <h3>Detached House For Sale </h3>
+                                <p>Sherpherd's Hut</p>
+                                <h3>Lorem ipsum dolor sit amet</h3>
                                 <ul>
                                     <li><a href=""><span class="flaticon-bath"></span></a> 04</li>
                                     <li><a href=""><span class="flaticon-bed"></span></a> 03</li>

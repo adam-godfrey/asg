@@ -1,9 +1,32 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+{{--<script defer
+  src="https://maps.googleapis.com/maps/api/js?key={{ env('MAPS_API_KEY') }}&callback=initMap">
+</script>
+<script>
+  function initMap() {
+    var uluru = {lat: -25.363, lng: 131.044};
+    var grayStyles = [
+      {
+        featureType: "all",
+        stylers: [
+          { saturation: -90 },
+          { lightness: 50 }
+        ]
+      },
+      {elementType: 'labels.text.fill', stylers: [{color: '#ccdee9'}]}
+    ];
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: -31.197, lng: 150.744},
+      zoom: 9,
+      styles: grayStyles,
+      scrollwheel:  false
+    });
+  }
+  
+</script>--}}
 <script src="{{ asset('js/app.js') }}"></script>
-<script src="{{ asset('js/dateTimePicker.min.js') }}"></script>
-<script src="{{ asset('js/masonry.pkgd.min.js') }}"></script>
-<script src="{{ asset('js/moment.js') }}"></script>
-<script src="{{ asset('js/jquery.daterangepicker.js') }}"></script>
+
+@stack('scripts')
+
 <script>
 
 $(function() {
@@ -21,35 +44,6 @@ $(function() {
 
 		return false;
 	});
-
-	   //masonry js
-  $('.grid').masonry({
-    itemSelector: '.grid-item',
-    columnWidth: '.grid-sizer',
-    percentPosition: true
-  });
-
-  $('#show-next-month').calendar(
-  {
-    num_next_month: 2,
-    num_prev_month: 0,
-    unavailable: ['*-*-9', '*-*-10']
-  });
-
-  $('#daterange').dateRangePicker({
-  	format: 'dddd MMM Do, YYYY',
-  	startDate: new Date(),
-  	autoClose: true
-	// beforeShowDay: function(t)
-	// {
-	// 	var valid = !(t.getDay() == 0 || t.getDay() == 6);  //disable saturday and sunday
-	// 	var _class = '';
-	// 	var _tooltip = valid ? '' : 'sold out';
-	// 	return [valid,_class,_tooltip];
-	// }
-  });
 });
 
 </script>
-
-

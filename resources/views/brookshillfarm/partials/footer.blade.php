@@ -32,20 +32,21 @@
 			  </div>
 			  <div class="col-sm-6 col-lg-3">
 				 <div class="single_footer_part">
-					<h4>Important Link</h4>
+					<h4>Links</h4>
 					<ul class="list-unstyled">
-					   <li><a href="#">A link</a></li>
-					   <li><a href="#">A link</a></li>
-					   <li><a href="#">A link</a></li>
-					   <li><a href="#">A link</a></li>
-					   <li><a href="#">A link</a></li>
+					   <li><a href="{{ route('brookshillfarm.glamping.accomodation') }}">Accomodation</a></li>
+					   <li><a href="{{ route('brookshillfarm.glamping.booking.index') }}">How To Book</a></li>
+					   <li><a href="{{ route('brookshillfarm.news.index') }}">Latest News</a></li>
+					   {{--<li><a href="{{ route('brookshillfarm.events.index') }}">Events</a></li>--}}
+					   <li><a href="{{ route('brookshillfarm.countryside-management.index') }}">Countryside Management</a></li>
+					   <li><a href="{{ route('brookshillfarm.contact.index') }}">Contact Us</a></li>
 					</ul>
 				 </div>
 			  </div>
 			  <div class="col-sm-6 col-lg-3">
 				 <div class="single_footer_part">
 					<h4>Newsletter</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<p>Join our mailing list!</p>
 					<div id="mc_embed_signup">
 						<form target="_blank"
 						   action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
