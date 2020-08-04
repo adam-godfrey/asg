@@ -49740,8 +49740,8 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
  *
  * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
  */
-// const files = require.context('./', true, /\.vue$/i);
-// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
+// const files = require.context('./', true, /\.vue$/i)
+// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
 /**
@@ -49870,17 +49870,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/sass/app.scss":
-/*!*********************************!*\
-  !*** ./resources/sass/app.scss ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ "./resources/sass/brookshill.scss":
 /*!****************************************!*\
   !*** ./resources/sass/brookshill.scss ***!
@@ -49888,19 +49877,18 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: Undefined variable.\n   ╷\n74 │     border-left: 2px solid $btn_bg;\n   │                            ^^^^^^^\n   ╵\n  resources\\sass\\_global.scss 74:28  @import\n  C:\\Homestead_Projects\\asg\\resources\\sass\\brookshill.scss 10:9                         root stylesheet\n    at C:\\Homestead_Projects\\asg\\node_modules\\webpack\\lib\\NormalModule.js:316:20\n    at C:\\Homestead_Projects\\asg\\node_modules\\loader-runner\\lib\\LoaderRunner.js:367:11\n    at C:\\Homestead_Projects\\asg\\node_modules\\loader-runner\\lib\\LoaderRunner.js:233:18\n    at context.callback (C:\\Homestead_Projects\\asg\\node_modules\\loader-runner\\lib\\LoaderRunner.js:111:13)\n    at C:\\Homestead_Projects\\asg\\node_modules\\sass-loader\\dist\\index.js:73:7\n    at Function.call$2 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:88191:16)\n    at _render_closure1.call$2 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:77610:12)\n    at _RootZone.runBinary$3$3 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:26152:18)\n    at _RootZone.runBinary$3 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:26156:19)\n    at _FutureListener.handleError$1 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:24600:19)\n    at _Future__propagateToListeners_handleError.call$0 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:24897:40)\n    at Object._Future__propagateToListeners (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:4311:88)\n    at _Future._completeError$2 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:24725:9)\n    at _AsyncAwaitCompleter.completeError$2 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:24117:12)\n    at Object._asyncRethrow (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:4065:17)\n    at C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:14087:20\n    at _wrapJsFunctionForAsync_closure.$protected (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:4090:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:24138:12)\n    at _awaitOnObject_closure0.call$2 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:24130:25)\n    at _RootZone.runBinary$3$3 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:26152:18)\n    at _RootZone.runBinary$3 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:26156:19)\n    at _FutureListener.handleError$1 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:24600:19)\n    at _Future__propagateToListeners_handleError.call$0 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:24897:40)\n    at Object._Future__propagateToListeners (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:4311:88)\n    at _Future._completeError$2 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:24725:9)\n    at _AsyncAwaitCompleter.completeError$2 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:24117:12)\n    at Object._asyncRethrow (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:4065:17)\n    at C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:16672:20\n    at _wrapJsFunctionForAsync_closure.$protected (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:4090:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:24138:12)\n    at _awaitOnObject_closure0.call$2 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:24130:25)\n    at _RootZone.runBinary$3$3 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:26152:18)\n    at _RootZone.runBinary$3 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:26156:19)\n    at _FutureListener.handleError$1 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:24600:19)\n    at _Future__propagateToListeners_handleError.call$0 (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:24897:40)\n    at Object._Future__propagateToListeners (C:\\Homestead_Projects\\asg\\node_modules\\sass\\sass.dart.js:4311:88)");
 
 /***/ }),
 
 /***/ 0:
-/*!**********************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/brookshill.scss ***!
-  \**********************************************************************************************/
+/*!********************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/brookshill.scss ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\Homestead_Projects\asg\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! C:\Homestead_Projects\asg\resources\sass\app.scss */"./resources/sass/app.scss");
 module.exports = __webpack_require__(/*! C:\Homestead_Projects\asg\resources\sass\brookshill.scss */"./resources/sass/brookshill.scss");
 
 

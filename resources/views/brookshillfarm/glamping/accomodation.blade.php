@@ -17,7 +17,7 @@
 @section('content')
 <section class="page-section about-heading">
     <div class="container">
-      	<img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="https://via.placeholder.com/1900x710.png?text=Image Coming Soon" alt="">
+      	<img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{{ asset('images/accomodation.jpg') }}" alt="Book of birds, binoculars and grey basket on shelf">
       	<div class="about-heading-content">
         	<div class="row">
           		<div class="col-xl-9 col-lg-10 mx-auto">
@@ -63,7 +63,7 @@
                     <div class="grid-sizer"></div>
                     <div class="grid-item big_weight">
                         <div class="project_img">
-                            <img src="https://via.placeholder.com/960x350.png?text=Image Coming Soon" alt="">
+                            <img src="{{ asset('images/gallery/bottles.jpg') }}" alt="Various bottles and soap in window">
                             <div class="project_gallery_hover_text">
                                 <p>Sherpherd's Hut</p>
                                 <h3>Lorem ipsum dolor sit amet</h3>
@@ -78,7 +78,7 @@
                     </div>
                     <div class="grid-item big_height">
                         <div class="project_img">
-                            <img src="https://via.placeholder.com/960x700.png?text=Image Coming Soon" alt="">
+                            <img src="{{ asset('images/gallery/bed.jpg') }}" alt="Bed and furniture inside Shepherd's Hut">
                             <div class="project_gallery_hover_text">
                                 <p>Sherpherd's Hut</p>
                                 <h3>Lorem ipsum dolor sit amet</h3>
@@ -93,7 +93,7 @@
                     </div>
                     <div class="grid-item">
                         <div class="project_img">
-                            <img src="https://via.placeholder.com/479x350.png?text=Image Coming Soon" alt="">
+                            <img src="{{ asset('images/gallery/bench.jpg') }}" alt="Bottle of wine, glasses, flowers in vase and picknet basket on wooden bench">
                             <div class="project_gallery_hover_text">
                                 <p>Sherpherd's Hut</p>
                                 <h3>Lorem ipsum dolor sit amet</h3>
@@ -108,7 +108,7 @@
                     </div>
                     <div class="grid-item">
                         <div class="project_img">
-                            <img src="https://via.placeholder.com/478x349.png?text=Image Coming Soon" alt="">
+                            <img src="{{ asset('images/gallery/sofa.jpg') }}" alt="Sofa with cushions inside shepherd's hut" alt="">
                             <div class="project_gallery_hover_text">
                                 <p>Sherpherd's Hut</p>
                                 <h3>Lorem ipsum dolor sit amet</h3>
@@ -130,7 +130,7 @@
 <section class="page-section clearfix">
     <div class="container">
         <div class="intro">
-            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="https://via.placeholder.com/800x533.png?text=Image Coming Soon" alt="">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/outdoors.jpg') }}" alt="Bench overlooking Blackdown Hills">
             <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                 <h2 class="section-heading mb-4">
                     <span class="section-heading-upper">Enjoy Fantastic Views</span>
@@ -148,7 +148,7 @@
 <section class="page-section clearfix">
     <div class="container">
         <div class="intro">
-            <img class="intro-img-r img-fluid mb-3 mb-lg-0 rounded" src="https://via.placeholder.com/800x533.png?text=Image Coming Soon" alt="">
+            <img class="intro-img-r img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/shepherds-hut.jpg') }}" alt="">
             <div class="intro-text-r left-0 text-center bg-faded p-5 rounded">
                 <h2 class="section-heading mb-4">
                     <span class="section-heading-upper">Outdoor Cooking On A</span>
