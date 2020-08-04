@@ -3,7 +3,7 @@
 @section('content')
 <section class="page-section about-heading">
     <div class="container">
-      	<img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="https://via.placeholder.com/1900x710.png?text=Image Coming Soon" alt="">
+      	<img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{{ asset('images/scenery1.jpg') }}" alt="">
       	<div class="about-heading-content">
         	<div class="row">
           		<div class="col-xl-9 col-lg-10 mx-auto">
