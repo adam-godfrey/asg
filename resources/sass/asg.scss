@@ -1,0 +1,24 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~aos/src/sass/aos';
+@import '~@icon/icofont/icofont';
+@import '~boxicons/css/boxicons';
+@import '~venobox/venobox/venobox';
+@import '~owl.carousel/src/scss/owl.carousel';
+@import "asg/style";
+
+[class*=" icofont-"],
+[class^="icofont-"] {
+    font-family: icofont !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    line-height: 1;
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+}

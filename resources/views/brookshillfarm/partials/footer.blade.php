@@ -4,7 +4,7 @@
 		   <div class="row">
 			  <div class="col-lg-12">
 				 <div class="footer_logo">
-					<a href="{{ route('brookshillfarm.index.index') }}" class="footer_logo_iner"> <img src="{{ asset('images/logo.png') }}" alt="Brookshill Farm logo"> </a>
+					<a href="{{ route('brookshillfarm.index.index') }}" class="footer_logo_iner"> <img src="{{ asset('images/brookshill/logo.png') }}" alt="Brookshill Farm logo"> </a>
 				 </div>
 			  </div>
   
