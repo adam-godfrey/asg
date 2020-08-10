@@ -16,4 +16,5 @@
   <link href="{{ asset('css/themify-icons.css') }}" rel="stylesheet">
   <link href="{{ asset('css/dateTimePicker.css') }}" rel="stylesheet">
 
+  @include('brookshillfarm.partials.structured-data')
 </head>

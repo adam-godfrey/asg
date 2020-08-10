@@ -24,7 +24,7 @@
 <section class="page-section clearfix">
     <div class="container">
         <div class="intro">
-            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/walking.jpg') }}" alt="Three people walking on green cliff">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/brookshill/walking.jpg') }}" alt="Three people walking on green cliff">
             <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                 <h2 class="section-heading mb-4">
                     <span class="section-heading-upper">Fresh Coffee</span>
@@ -43,7 +43,7 @@
 <section class="page-section clearfix">
     <div class="container">
         <div class="intro">
-            <img class="intro-img-r img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/fishing.jpg') }}" alt="Person holding fishing rod">
+            <img class="intro-img-r img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/brookshill/fishing.jpg') }}" alt="Person holding fishing rod">
             <div class="intro-text-r left-0 text-center bg-faded p-5 rounded">
                 <h2 class="section-heading mb-4">
                     <span class="section-heading-upper">Fresh Coffee</span>
@@ -58,7 +58,7 @@
 <section class="page-section clearfix">
     <div class="container">
         <div class="intro">
-            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/wildlife.jpg') }}" alt="Brown deer standing near tree">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/brookshill/wildlife.jpg') }}" alt="Brown deer standing near tree">
             <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                 <h2 class="section-heading mb-4">
                     <span class="section-heading-upper">We love a</span>
@@ -77,7 +77,7 @@
 <section class="page-section clearfix">
     <div class="container">
         <div class="intro">
-            <img class="intro-img-r img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/clay-pigeon-shooting.jpg') }}" alt="Shotguns and ear defenders">
+            <img class="intro-img-r img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/brookshill/clay-pigeon-shooting.jpg') }}" alt="Shotguns and ear defenders">
             <div class="intro-text-r left-0 text-center bg-faded p-5 rounded">
                 <h2 class="section-heading mb-4">
                     <span class="section-heading-upper">Shooting</span>
@@ -92,7 +92,7 @@
 <section class="page-section clearfix">
     <div class="container">
         <div class="intro">
-            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/lessons.jpg') }}" alt="Woman in black jacket riding brown horse">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/brookshill/lessons.jpg') }}" alt="Woman in black jacket riding brown horse">
             <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                 <h2 class="section-heading mb-4">
                     <span class="section-heading-upper">Fresh Coffee</span>
@@ -126,7 +126,7 @@
 <section class="page-section clearfix">
     <div class="container">
         <div class="intro">
-            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/cycling.jpg') }}" alt="Cycle route sign on wooden post">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{ asset('images/brookshill/cycling.jpg') }}" alt="Cycle route sign on wooden post">
             <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                 <h2 class="section-heading mb-4">
                     <span class="section-heading-upper">Fresh Coffee</span>
